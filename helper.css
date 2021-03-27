@@ -1,0 +1,16 @@
+
+body {
+    background-color: aqua;
+ }
+ ul {
+    color: green;
+ }
+ :link {
+    color: aquamarine;
+ }
+ p {
+    font-family: "times new roman";
+    font-size: 20px;
+ }
+
+ div#button {background: #888; border: 1px solid; border-color: #999 #777 #777 #999 }
