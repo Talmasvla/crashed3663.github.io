@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM PENGISIAN</title>
+    </head>
+    <head><h2>FORM PENGISIAN SISWA</h2>
+    </head>
+</html>
+<body>
+    <header>
+        <nav>
+            <p>Silahkan isi data dibawah ini !</p>        
+        </nav>
+    </header>
+</body>
+<hr>
+<link rel="stylesheet" type="text/css" href="helper.css">
+
+<div class="container">
+    <form action="action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Nama depan</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Nama depan..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Nama belakang</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Nama belakang..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Negara</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country">
+            <option value="australia">Indonesia</option>
+            <option value="canada">Malaysia</option>
+            <option value="usa">Brunei Darussalam</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Subjek</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Tulis Disini.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+
